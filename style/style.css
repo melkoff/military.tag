@@ -1,0 +1,37 @@
+header{
+    background-color: #23280F;
+}
+
+ul{
+    list-style: none;
+}
+
+.col-7 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn__header1 a{
+    background-color: #FFD234;
+    color: #000;
+    margin-right: 45px;
+}
+
+.btn__header2 a{
+    border: 1px solid #FFD234;
+    color: #FFD234;
+}
+
+.bag{
+    position: relative;
+}
+
+/* .ellipse{
+    position: absolute;
+    right: 110px;
+    bottom: 390px;
+} */
+
+li{
+    margin-right: 45px;
+}

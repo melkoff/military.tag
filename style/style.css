@@ -2,9 +2,23 @@ header{
     background-color: #23280F;
 }
 
+p{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 ul{
+    margin: 0;
     list-style: none;
 }
+
+li{
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+}
+
 
 .col-7 a{
     text-decoration: none;
@@ -12,26 +26,71 @@ ul{
 }
 
 .btn__header1 a{
-    background-color: #FFD234;
     color: #000;
-    margin-right: 45px;
+    padding: 10px 30px;
 }
 
 .btn__header2 a{
-    border: 1px solid #FFD234;
     color: #FFD234;
+    padding: 10px 30px;
 }
+
+.btn__header1 {
+    background-color: #FFD234;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.btn__header2{
+    border: 1px solid #FFD234;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
 
 .bag{
     position: relative;
 }
 
-/* .ellipse{
+.ellipse div{
     position: absolute;
-    right: 110px;
-    bottom: 390px;
-} */
+    width: 34px;
+    height: 34px;
+    background-color: #f00;
+    border-radius: 50%;
+    top: -10px;
+    left: 20px;
+}
 
-li{
-    margin-right: 45px;
+main{
+    background-image: url('../img/Apple-Watch.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 682px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    /* or 55px */
+    margin: 0;
+    margin-top: 188px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.title__p{
+    width: 676px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+    margin-top: 22px;
+    margin-bottom: 36px;
+    color: #FFFFFF;
+    border: 4px solid #FFD234;
 }
